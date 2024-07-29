@@ -175,7 +175,7 @@ public class MeepMeepTesting {
 
      MeepMeep meepMeep=new MeepMeep(700);
 
-        //RED CAZ STANGA FAR FROM BB
+        //BLUE CAZ STANGA FAR FROM BB
         RoadRunnerBotEntity CompleteBlueFar1 = new DefaultBotBuilder(meepMeep)
                 .setConstraints(60, 50, 5.7, 5.7, 13.22)
                 .followTrajectorySequence(drive ->
